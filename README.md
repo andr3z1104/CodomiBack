@@ -7,7 +7,7 @@
 ## 🚀 Características Principales
 
 - 📑 **Generación y envío masivo de facturas personalizadas**
-- 💳 **Pagos en línea directamente desde la aplicación**
+- 💳 **Reporte de pagos directamente desde la aplicación**
 - 📢 **Canales de difusión para anuncios del condominio**
 - 🧾 **Historial completo de facturación y pagos**
 - 🏢 **Registro y gestión de propietarios y edificios**
@@ -23,7 +23,7 @@
 - **Django**
 - **Django REST Framework**
 - **JWT Authentication**
-- **PostgreSQL** (u otro sistema relacional)
+- **PostgreSQL**
 - **Hashing de contraseñas (PBKDF2, bcrypt o similar)**
 
 ### Frontend:
@@ -31,17 +31,3 @@
 - **TailwindCSS** para estilos rápidos y responsivos
 - **Axios** para consumo de la API
 - **SimpleIcons** para íconos de redes sociales y marca
-
-### Otros:
-- **Docker** (opcional para despliegue)
-- **CI/CD** (opcional con GitHub Actions, GitLab CI, etc.)
-
----
-
-## 🛠️ Instalación y Configuración
-
-### 1. Clonar el repositorio
-
-```bash
-git clone https://github.com/tu-usuario/codomi.git
-cd codomi
