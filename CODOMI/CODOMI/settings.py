@@ -27,6 +27,9 @@ environ.Env.read_env(os.path.join(BASE_DIR, '.env'))
 # SUPABASE_URL = env('SUPABASE_URL')
 SUPABASE_KEY = env('SUPABASE_KEY')
 SUPABASE_PROJECT_URL = env('SUPABASE_PROJECT_URL')
+SUPABASE_JWKS_URL = env('SUPABASE_JWKS_URL') 
+SUPABASE_JWT_EXP = env('SUPABASE_JWT_EXP')
+#SUPABASE_JWT_SIGNING_KEY = env('SUPABASE_JWT_SIGNING_KEY')
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
